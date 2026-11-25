@@ -1,0 +1,25 @@
+# 딕셔너리 만들기
+dic = {}
+dic = dict()
+
+
+# 딕셔너리 특징
+dic={'kor':80,'eng':90,'mat':77}
+dic['kor']
+dic['kor']=85           # 위의 80인 kor값을 변경 
+dic['sci']=92           # 위의 sci 키 값을 생성 시킴
+
+dic[0]
+
+
+# 딕셔너리 활용
+
+del dic['mat']          # 삭제하기(위의 mat를 삭제시킴)
+dic.clear()             # 전체 삭제
+'eng' in dic            # 확인하기 ( 키 기준)
+len(dic)                # 전체 개수
+
+
+dic.keys()              # 모든 키 얻기
+dic.values()            # 모든 값 얻기
+dic.items()
